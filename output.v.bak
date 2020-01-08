@@ -1,0 +1,21 @@
+module outputs(led,seg7_A,seg7_B,seg7_num,clk);
+	input [31:24] seg7_num;
+	input [7:0]seg7_A;
+	input [15:8]seg7_B;
+	input [9:0]led;
+	output [31:24] seg7_num;
+	output [7:0]seg7_A;
+	output [15:8]seg7_B;
+	output [9:0]led;
+	
+	Bin2Dec bin2dec_inst(data, seg7);
+	
+	always@(posedge clk) begin
+		case(sel)
+				0:data  = cnt_in;
+				1:data = acc_in;
+				2:data = mem_in;
+				default: data = acc_in;
+		endcase
+	end
+endmodule

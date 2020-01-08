@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jan 03 16:38:26 2019
+Quartus II 64-Bit Version : 10.1 Build 153 11/29/2010 SJ Full Version
+Revision Name : Group09
+Top-level Entity Name : Group09
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 147 / 15,408 ( < 1 % )
+    Total combinational functions : 145 / 15,408 ( < 1 % )
+    Dedicated logic registers : 77 / 15,408 ( < 1 % )
+Total registers : 77
+Total pins : 54 / 347 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 0 / 516,096 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

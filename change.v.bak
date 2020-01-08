@@ -1,0 +1,10 @@
+module change(num,seg_A,seg_B,seg7)
+input num[3:0];
+input seg_A[3:0];
+input seg_B[3:0];
+output reg seg7[31:0]
+	Seg7Decode s0(seg7_A, seg7[31:24]);
+	Seg7Decode s1(seg7_B, seg7[23:16]);
+	seg7[15:8] <= 8'b11111111;
+	Seg7Decode s3(num, seg7[7:0]);
+endmodule
